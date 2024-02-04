@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Magical Costume Generator</title>
+</head>
+<body>
+
+<div class="container">
+    <h1>Magical Costume Generator</h1>
+    
+    <label for="creature-dropdown">Choose Your Magical Creature:</label>
+    <select id="creature-dropdown">
+        <option value="" selected disabled>Choose a Costume</option>
+        <option value="wizard">Wizard</option>
+        <option value="dragon">Dragon</option>
+        <option value="fairy">Fairy</option>
+        <option value="unicorn">Unicorn</option>
+    </select>
+    
+    <button onclick="getCostumeInfo()">Get Costume Info</button>
+
+    <div id="costume-info"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
